@@ -89,7 +89,7 @@ $ cmake --build .
 ### Run tests
 
 ```
-$ cd build/lib
+$ cd build/bin
 $ ./curvetest
 ```
 
@@ -110,10 +110,16 @@ $ ls ./libcurve.so
 ## Environment
 
 OS: Ubuntu 22.04
+
 Compiler: G++
+
 Standard: C++20
+
 Multithreading: OpenMP
+
 Test: GoogleTest
+
 Build: CMake
+
 VCS: Git
 
