@@ -77,6 +77,18 @@ z(t) = 0
 
 ## Build
 
+### Prerequisites
+
+Clone the repository with the following command in order to also download googletest submodule (not just git clone):
+```
+$ git clone --recurse-submodules <url>
+```
+
+Install OpenMP library:
+```
+# apt install libomp-dev 
+```
+
 ### Build
 
 ```
